@@ -1,0 +1,18 @@
+.cartPageButton {
+  width: 30%;
+  padding: 10px !important;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.cartPage {
+  width: 80%;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 500px) {
+  .cartPageButton {
+    width: 90%;
+  }
+}

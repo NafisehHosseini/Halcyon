@@ -1,0 +1,38 @@
+@use "login";
+@use "dashboard";
+@use "cardHomePage";
+@use "footer";
+@use "sideBar";
+@use 'formAdd';
+@use 'orderForm';
+@font-face {
+  font-family: Koodak;
+  src: url("../font/KoodakBold.woff");
+}
+
+body {
+  margin: 0;
+  font-family: koodak;
+  direction: rtl;
+  background-color: #F4F4F4;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.title {
+  font-family: koodak;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 5px;
+  color: black;
+}
+
+.grayBut {
+  background-color: #454e53;
+}
+/*# sourceMappingURL=main.css.map */

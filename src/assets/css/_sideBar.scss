@@ -1,0 +1,17 @@
+.sidebar {
+  width: 200px;
+  height: 100%;
+  text-align: right;
+  direction: rtl;
+  background-color: #f4f4f4;
+}
+
+.brandsPage {
+  display: flex;
+  flex-direction: row;
+}
+
+.singleBrands {
+  width: 100%;
+  position: relative;
+}

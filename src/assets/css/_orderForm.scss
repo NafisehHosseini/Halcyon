@@ -1,0 +1,59 @@
+.orderBody {
+  padding-top: 70px;
+  background-image: url("../img/image-from-rawpixel-id-3904581-png.png");
+  height: 85vh;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+}
+
+.orderForm {
+  width: 40%;
+  margin: auto;
+  direction: ltr;
+
+  form {
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .inputs {
+      font-size: 1rem;
+      padding: 5px 0;
+      margin-bottom: 5%;
+      width: 45%;
+      border: none;
+      border-bottom: solid black;
+      &:focus {
+        outline: none;
+      }
+      &::placeholder {
+        font-family: koodak;
+        color: black;
+      }
+    }
+  }
+  button {
+    margin: 1% 0;
+    width: 20%;
+    font-size: 1rem;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .orderBody {
+    background-size: 120%;
+    padding-top: 10% !important;
+  }
+
+  .inputs {
+    font-size: 0.7rem !important;
+    width: 100% !important;
+  }
+
+  input:not(.inputs) {
+    padding: 0 !important;
+  }
+}

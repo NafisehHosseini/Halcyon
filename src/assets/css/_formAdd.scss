@@ -1,0 +1,22 @@
+.formBody{
+    input{
+        height: 30px;
+    }
+    select{
+        height: 40px;
+        padding-right: 10px;
+    }
+
+    button{
+        border: none;
+        width: 30%;
+        padding: 10px;
+        margin: auto;
+        font-family: koodak;
+        background-color: #3C8DAD;
+        color: white;
+        &:hover{
+            background-color: #F5A962;
+        }
+    } 
+}

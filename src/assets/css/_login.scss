@@ -1,0 +1,96 @@
+.loginBody {
+  padding-top: 70px;
+  background-image: url("../img/image-from-rawpixel-id-3904581-png.png");
+  height: 75vh;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  color: #3c8dad;
+  width: 30%;
+  margin: auto;
+  padding: 3% 0;
+  text-align: center;
+  button {
+    display: block;
+    width: 30%;
+    margin: auto;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-family: "koodak";
+    margin-top: 40px;
+    border-radius: 10px;
+
+    font-size: 20px;
+  }
+  input {
+    border-bottom: solid black 2px;
+    direction: ltr;
+    width: 60%;
+    padding: 10px;
+    margin: 15px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .iconHolder {
+    position: relative;
+  }
+
+  .icons {
+    font-size: 20px;
+    position: absolute;
+    top: -45px;
+    left: 77%;
+    cursor: pointer;
+  }
+}
+
+.error {
+  color: red;
+  position: relative;
+  top: 90px;
+}
+.error1{
+  color: red;
+}
+.error + input {
+  border-bottom: solid red !important;
+}
+
+.error ~ button {
+  background-color: red;
+}
+
+.error ~ .icons{
+  color: red;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .loginBody{
+    background-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .loginBody{
+  padding-top: 20px;
+
+    background-size: 100%;
+    input{
+      width: 100%;
+    }
+    button{
+      margin-top: 10px;
+      width: 60%;
+    }
+  }
+}
